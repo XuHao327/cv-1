@@ -55,7 +55,7 @@ let string = `/* 你好，我叫小徐
     to{
         transform: rotate(360deg)
     }
-} 
+}
  `;
 let string2 = '';
 let n = 0;
