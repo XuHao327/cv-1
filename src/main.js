@@ -42,6 +42,20 @@ let string = `/* 你好，我叫小徐
     background-color: #FFF;
     background: radial-gradient(circle, rgba(2,0,29,1) 0%, rgba(1,0,11,1) 0%, rgba(1,0,11,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%, rgba(2,0,36,1) 100%, rgba(0,0,0,1) 100%);
 }
+#div1{
+    animation-duration: 3s;
+    animation-name: spin;
+    animation-iteration-count :infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
  `;
 let string2 = '';
 let n = 0;
